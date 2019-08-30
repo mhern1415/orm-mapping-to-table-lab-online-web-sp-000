@@ -24,7 +24,7 @@ def self.drop_table
     DROP TABLE students
     SQL
     DB[:conn].execute(sql)  
-  end
+end
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]  
   
